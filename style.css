@@ -1,0 +1,285 @@
+*{
+    font-family: 'poppins', 'sans-serif';
+    margin: 0;
+}
+
+body{
+    background-color: rgb(23, 22, 22);
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.small-sidebar{
+    width: 5%;
+    height: 130px;
+}
+.small-sidebar a p{
+    display: none;
+}
+
+.maincontainer{
+    margin-left: 17%;
+    /* padding: 0 2% 0 0; */
+    flex-wrap: wrap;
+}
+
+.larger-maincontainer{
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+
+
+/* card-styling */
+.card{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 390px;
+    padding: 10px;
+}
+.card-img img{
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-between;
+}
+.chhanel-icon img{
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+.video-details{
+    padding-top: -10px;
+    margin-left: 10px;
+}
+
+.other-d{
+    color: rgb(177, 175, 175);
+    font-weight: 100;
+}
+
+.heading{
+    margin: 5px;
+}
+.div-1{
+    
+    display: flex;
+}
+
+.div-2 i{
+    font-size: larger;
+    padding-top: 100%;
+}
+
+
+
+
+
+
+
+
+
+.larger-card{
+    width: 3500px;
+    margin: 10px 28px 10px 0;
+}
+
+.thumbnailImg {
+    width: 100%;
+    border-radius: 15px;
+}
+.details{
+    color: white;
+}
+
+
+.detailcontainer{
+    display: flex;
+    margin-top: 5px;
+}
+
+
+
+
+.logo-img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.video-container{
+    padding-left: 2rem;
+
+}
+
+.content{
+    display: flex;
+}
+
+.video-container .content-left{
+    flex-basis: 67%;
+}
+
+
+.video-container .content-left video{
+    width: 100%;
+}
+
+.video-container .content-right{
+    flex-basis: 28%;
+    color: white;
+    padding-right: 1rem;
+}
+
+.video-list{
+    display: flex;
+    gap: 20px;
+    /* gap: 15px; */
+    margin-bottom: 15px;
+}
+
+.video-list img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.below-video-container{
+    /* border: 3px solid green; */
+    color: white;
+}
+
+.below-video-container h1{
+      font-size: 1.9rem;
+}
+
+.other-details{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+
+
+.other-details-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.channelNameAndIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.subsCount{
+    font-size: 0.7rem;
+}
+
+.other-details-right{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.other-details-right i{
+    cursor: pointer;
+}
+.other-details-right img{
+    width: 20px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: #2e2e2e;
+    padding: 2px;
+}
+
+.joinAndSubsButtonCont button{
+   border-radius: 50px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+
+.joinBtn{
+   padding: 0.5rem 1rem;
+   margin-right: 1rem;
+   background-color: #2e2e2e;
+   color: white;
+}
+.subsBtn{
+    padding: 0.5rem 1rem;
+}
+
+
+.discriptionContainer{
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.discriptionContainer p{
+    font-size: 0.9rem;
+}
+
+.commentContainer{
+    margin-top: 2rem;
+}
+
+.commentContainer h1{
+    font-size: 1.5rem;
+}
+
+.channel-logo{
+    width: 15px; 
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.writeCommentContainer{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.writeCommentContainer input{
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid white;
+    color: white;
+    width: 100%;
+}
+
+.previousComment{
+    margin-top: 1rem;
+    
+}
+
+.youtubeicon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-right{
+    margin: 20px 0 0 10px;
+}
+

@@ -1,0 +1,131 @@
+/* navigation part */
+         
+nav{
+    display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 5);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+ background-color: black;
+ height: 60px;
+
+}   
+/* nav-left */
+.nev-left{
+    color: white;
+    display: flex;
+    gap: 15px;
+
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.hamburger:hover{
+    background-color: rgb(62, 59, 59);
+    padding: 15px 10px 15px 10px;
+    border-radius: 50%;
+}
+.youtubeicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    gap: 7px;
+    font-size: larger;
+    cursor: pointer;
+}
+.youtube-icon{
+    background-color: #fff;
+    border: 0;
+    
+}
+.y{
+    text-decoration: none;
+}
+.youtube-icon i{
+     margin: -5px;
+    
+}
+/* nav-middle */
+ 
+.nav-middle{
+    display: flex;
+    width: 45%; 
+    color: white;
+    align-items: center;
+    height: 35px;
+    gap: 30px;
+}
+
+.search{
+    width: 90%;
+     border: 0.5px solid rgb(50, 49, 50);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.search-btn{
+    background-color: rgb(47, 45, 62);
+    font-size:12px;
+    padding: 13px 25px 13px 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover::after{
+    content: "search";
+    font-size: 20px;
+    align-items: center;
+    position: absolute;
+}
+
+
+.search-input{
+    width: 90%;
+}
+.search-input input{
+    width: 100%;
+    border-top-left-radius : 20px;
+    border-bottom-left-radius : 20px;
+    padding: 6px 0 6px 12px;
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;   
+}
+
+.mic{
+    background-color: rgb(47, 45, 62);
+    padding: 10px 15px;
+    border-radius: 100%;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* nav-right */
+.nav-right{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    gap: 25px;
+}
+.nav-r-3{
+    background-color: rgb(126, 175, 52);
+    border-radius: 50%;
+    padding: 0 10px 3px 10px;
+    cursor: pointer;
+}
+.nav-right i{
+    cursor: pointer;
+}
